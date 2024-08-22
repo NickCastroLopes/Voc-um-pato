@@ -1,0 +1,36 @@
+body{
+background-color: hsl(49, 85%, 68%);
+color:#000000;
+font-family: "Rambla", sans-serif;
+display:flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+
+button{
+    background-color: #ea9424;
+    font-family: "Rambla", sans-serif;
+    color: white;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+
+main{
+max-width: 90%;
+text-align: center;
+
+}
+
+img{
+max-width: 35%;
+
+}
